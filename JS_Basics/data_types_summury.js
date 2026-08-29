@@ -37,6 +37,27 @@ console.log(typeof outsideTemp);
 
 
 
+// =======================================================
+// Stack memory(Primitive), Heap memory(Non-Primitive)
+
+let myYoutubename = "MSVlogs";
+let anotherName = myYoutubename;
+anotherName = "MSGVlogs";
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let user = {
+    email: "babul896896@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = user;
+userTwo.email = "user@google.com";
+
+console.log(user.email);
+console.log(userTwo.email);
+
 
 
 
